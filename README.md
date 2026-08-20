@@ -1,114 +1,77 @@
-<h1 align="center">Hi, I'm Mudassar Khalid 👋</h1>
-<h3 align="center">SOC Analyst | Network Engineer | Threat Detection & Defensive Security</h3>
+<h1 align="center">👋 Mudassar Khalid</h1> <h3 align="center"><code>SOC Analyst · Network Engineer · Blue Team by trade, breaker by curiosity</code></h3> <p align="center"> 📍 Islamabad, Pakistan &nbsp;|&nbsp; 🎓 CS Graduate, FAST NUCES &nbsp;|&nbsp; 🟢 Open to Tier 1 SOC / Network Engineer / NOC roles </p> <p align="center"> <a href="mailto:mdsrkhalid0@gmail.com">✉️ mdsrkhalid0@gmail.com</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/mudassar-khalid-sec">💼 LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/mdsr-1">🐙 github.com/mdsr-1</a> </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Islamabad%2C%20Pakistan-informational?style=flat-square" />
-  <img src="https://img.shields.io/badge/Available%20for-Full--Time%20Roles-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/CS%20Graduate-FAST%20NUCES-blueviolet?style=flat-square" />
-</p>
+  $ whoami
+  > CS graduate who got hooked on the moment logs stop being noise
+    and start telling a story.
 
-<p align="center">
-  <a href="mailto:mdsrkhalid0@gmail.com"><img src="https://img.shields.io/badge/Email-mdsrkhalid0%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/mudassar-khalid-sec"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/mdsr-1"><img src="https://img.shields.io/badge/GitHub-mdsr--1-181717?style=flat-square&logo=github&logoColor=white" /></a>
-</p>
+  $ cat interests.txt
+  > SIEM detection engineering · network architecture & hardening
+    packet forensics · threat intel · automating the boring parts
 
----
+  $ status --current
+  > Available now. Rotational shifts welcome.
 
-### 🧭 About Me
+I like the two ends of the same problem: building networks that are hard to break, and watching the logs for the moment someone tries anyway. Most of what's below comes from labs I built myself, not just courses I finished — I wanted evidence I could point to, not just a certificate.
 
-I'm a Computer Science graduate from **FAST NUCES, Islamabad**, working at the intersection of **network engineering** and **security operations**. I design, harden, and troubleshoot enterprise network infrastructure — and I detect, triage, and investigate the threats that target it.
+🧪 Labs & Projects
 
-- 🔭 Building home labs that simulate real enterprise topologies and real attacks
-- 🛡️ SOC-focused: SIEM log analysis, alert triage, incident documentation, threat intel lookups
-- 🌐 Network-focused: routing & switching, VLAN segmentation, ACLs, site-to-site VPNs
-- 🐍 Automating recon and detection workflows with Python
-- 🎯 Seeking: **Tier 1 SOC Analyst**, **Network Engineer**, **Network Support**, or **NOC** roles
-- 🌍 Languages: Urdu (Native), English (Fluent)
+Each of these started as "I wonder if I could build this at home" and turned into something I'd actually defend in an interview.
 
----
+<details open> <summary><b>🔎 SIEM Threat Detection & Alert Triage Home Lab</b></summary> <br>
 
-### 🛠️ Technical Skills
+The idea: could I build a real detection pipeline — not just read about one — with nothing but a home lab budget?
 
-**Security Operations & Threat Detection**
-![ELK Stack](https://img.shields.io/badge/-Elastic%20Stack%20(ELK)-005571?style=flat-square&logo=elastic&logoColor=white)
-![Splunk](https://img.shields.io/badge/-Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Kibana](https://img.shields.io/badge/-Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/-VirusTotal-394EFF?style=flat-square)
-![AbuseIPDB](https://img.shields.io/badge/-AbuseIPDB-C0392B?style=flat-square)
-![Shodan](https://img.shields.io/badge/-Shodan-EA1D5D?style=flat-square)
+I stood up the Elastic Stack (ELK) to centralize Syslog and OS event data, then went on the offensive against my own environment: SSH brute-force attempts, Nmap sweeps, the kind of noisy recon that should light up a dashboard. From that telemetry I wrote 5+ custom Kibana detection rules, tuning thresholds until false positives dropped and real anomalies actually stood out.
 
-**Networking & Infrastructure**
-![Cisco](https://img.shields.io/badge/-Cisco%20IOS-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-![GNS3](https://img.shields.io/badge/-GNS3-2E86C1?style=flat-square)
-![OSPF](https://img.shields.io/badge/-OSPF%20%2F%20EIGRP-2E86C1?style=flat-square)
-![VLAN](https://img.shields.io/badge/-VLANs%20%2F%20STP-2E86C1?style=flat-square)
-![IPsec VPN](https://img.shields.io/badge/-IPsec%20VPN-2E86C1?style=flat-square)
-![DNS/DHCP](https://img.shields.io/badge/-DNS%20%2F%20DHCP-2E86C1?style=flat-square)
+Then I switched hats — L1 analyst mode — and triaged the alerts I'd just generated: mapped raw log timelines, wrote up incident notes, and timed how fast I could get from "alert fires" to "root cause identified."
 
-**Network & Application Security**
-![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/-Nmap-CB2029?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/-Burp%20Suite-FF6633?style=flat-square)
-![OWASP ZAP](https://img.shields.io/badge/-OWASP%20ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
-![Nessus](https://img.shields.io/badge/-Nessus-00B04F?style=flat-square)
-![ACLs](https://img.shields.io/badge/-ACLs%20%2F%20DHCP%20Snooping%20%2F%20DAI-000000?style=flat-square)
+Elastic Stack (ELK) Kibana Logstash Linux Bash
 
-**Automation, Scripting & Cloud**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/-Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Git](https://img.shields.io/badge/-Git%20%2F%20GitHub-181717?style=flat-square&logo=git&logoColor=white)
+</details> <details> <summary><b>🏢 Enterprise Network Architecture & Forensics Lab — CCNA Capstone</b></summary> <br>
 
----
+The idea: design a network the way an actual enterprise would need it — then attack it like an actual adversary would.
 
-### 🚀 Featured Projects
+In GNS3, I built a multi-site Head Office + Branch topology across 10+ devices, with departmental VLAN segmentation and OSPF handling the routing. That's the "make it work" half. The "make it survive contact" half came next: DHCP Snooping, Dynamic ARP Inspection (DAI), and explicit ACLs to lock traffic down to least-privilege.
 
-#### 🔍 SIEM Threat Detection & Alert Triage Home Lab
-Built a localized SIEM environment using the **Elastic Stack (ELK)** to ingest and centralize Syslog and OS/network event data. Simulated real attack vectors (SSH brute-force, Nmap port scans), authored **5+ custom Kibana detection rules** to cut false positives, and executed L1 alert triage — mapping log timelines and documenting incident response steps to speed up root-cause analysis.
-`Elastic Stack (ELK)` `Kibana` `Logstash` `Linux` `Bash`
+The most satisfying part was forensic, not architectural — capturing PCAPs in Wireshark and watching plaintext Telnet credentials sail across the wire in the clear, right next to an SSH session giving up nothing. That contrast is why I configured a site-to-site IPsec VPN tunnel afterward, to actually encrypt inter-branch traffic instead of just knowing I should.
 
-#### 🏢 Enterprise Network Architecture & Forensics Lab (CCNA Capstone)
-Designed a multi-site Head Office + Branch topology in **GNS3** across 10+ devices, with VLAN segmentation and OSPF routing. Hardened L2/L3 infrastructure with DHCP Snooping, Dynamic ARP Inspection (DAI), and explicit ACLs. Captured and analyzed PCAPs in Wireshark to expose plaintext credential leaks (Telnet vs. SSH) and configured a site-to-site **IPsec VPN** tunnel to secure inter-branch traffic.
-`GNS3` `Cisco IOS` `Wireshark` `IPsec VPN` `DHCP Snooping` `DAI` `ACLs`
+GNS3 Cisco IOS Wireshark IPsec VPN DHCP Snooping DAI ACLs
 
-#### 🐍 Network Vulnerability Scanner — Python Automation Tool
-Developed a CLI-based Python tool to automate network recon and attack-surface mapping across local subnets. Engineered multi-threaded port scanning, banner grabbing, and automated CVE correlation via the **Shodan API**, outputting structured JSON/SQLite reports to prioritize high-risk assets and streamline patch remediation.
-`Python` `Scapy` `Nmap` `Shodan API` `SQLite` `JSON`
+</details> <details> <summary><b>🐍 Network Vulnerability Scanner — Python Automation Tool</b></summary> <br>
 
----
+The idea: manual recon doesn't scale, so build a tool that does the first pass for you.
 
-### 💼 Experience
+A CLI-based Python scanner that automates reconnaissance across local subnet ranges — multi-threaded port scanning and banner grabbing, then cross-referenced against the Shodan API for automated CVE correlation on whatever it finds. Results land in structured JSON and SQLite, ranked so the highest-risk assets surface first instead of getting buried in a wall of scan output.
 
-**Junior Developer — Security & Network Focus** · *Quantum's Tech, Rawalpindi* · Nov 2024 – May 2025
-- Built secure backend modules for 5+ client web apps (Node.js, MongoDB) with JWT auth, RBAC, and secure session management
-- Ran vulnerability assessments on 3 client applications using OWASP ZAP and Burp Suite; enforced least-privilege access controls
-- Remediated 12+ critical XSS/CSRF risks and configured network-facing infrastructure with encrypted TLS connections and firewall rules
-- Monitored API network traffic to identify insecure transport protocols and harden service endpoints pre-deployment
+The goal wasn't just "find open ports" — it was building something that tells you which open ports actually matter.
 
----
+Python Scapy Nmap Shodan API SQLite JSON
 
-### 🎓 Education & Certifications
+</details>
+💼 Where I've applied this
 
-**Bachelor of Computer Science** — FAST NUCES, Islamabad *(Graduated: June 2026)*
-Coursework: Computer Networks · Ethical Hacking · Information Security · Operating Systems · Database Systems
+Junior Developer — Security & Network Focus, Quantum's Tech, Rawalpindi — Nov 2024 to May 2025
 
-- ✅ Cisco Certified Network Associate (CCNA 200-301) Curriculum — Completed
-- ✅ TryHackMe — SOC Level 1 Path — Completed
-- ✅ Python Programming & Scripting Foundations — Imagine AI, Islamabad (Jan 2023)
+Real client environments, real consequences for getting it wrong:
 
----
+Built secure backend modules for 5+ client web apps (Node.js, MongoDB) with JWT auth, RBAC, and proper session management
+Ran vulnerability assessments on 3 client applications with OWASP ZAP and Burp Suite, then hardened access controls to match
+Remediated 12+ critical XSS/CSRF findings and killed off broken-auth and default-credential risks across 5+ environments
+Locked down network-facing infrastructure — TLS everywhere, IP restrictions, firewall rules — and inspected API traffic to catch insecure transport before it shipped
+🧰 Toolbox
+Domain	Tools & Concepts
+Security Operations	ELK Stack, Splunk, Microsoft Sentinel, Alert Triage, IoC Tracking, Incident Response Lifecycle
+Threat Intel & Recon	VirusTotal, AbuseIPDB, Shodan, Phishing Analysis, OWASP Top 10
+Network Architecture	OSPF, EIGRP, VLANs, STP, GRE, VRF, Inter-VLAN Routing, FHRP
+Network Security	ACLs, DHCP Snooping, DAI, Port Security, Site-to-Site IPsec VPN, SSH Hardening
+Vuln Assessment	Nmap, Burp Suite, OWASP ZAP, Nessus
+Scripting & Ops	Python, Bash, PowerShell, Ansible, Terraform, Docker, Git
+Platforms	Kali Linux, Windows, Cisco IOS, Oracle VirtualBox
+🎓 Background
 
-### 📫 Let's Connect
+BS Computer Science — FAST NUCES, Islamabad (Class of 2026) Networks · Ethical Hacking · Information Security · Operating Systems · Database Systems
 
-<p align="left">
-  <a href="mailto:mdsrkhalid0@gmail.com"><img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/mudassar-khalid-sec"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
-
-<p align="center"><i>Open to Tier 1 SOC Analyst, Network Engineer, Network Support, and NOC roles — available for full-time, rotational shifts.</i></p>
+✅ CCNA (200-301) curriculum completed
+✅ TryHackMe — SOC Level 1 path completed
+✅ Python Programming & Scripting Foundations — Imagine AI, Islamabad
+<p align="center"> <i>Urdu (Native) · English (Fluent) — always happy to talk logs, topologies, or why Telnet still shouldn't exist.</i> </p> <p align="center"> <a href="mailto:mdsrkhalid0@gmail.com"><img src="https://img.shields.io/badge/Say%20hello-mdsrkhalid0%40gmail.com-black?style=flat-square" /></a> </p>
